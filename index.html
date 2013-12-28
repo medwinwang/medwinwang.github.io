@@ -72,8 +72,8 @@
 <h1>实现过程</h1>
 <h2>word转pdf</h2>
 <ol>
-<li>下载最新的jacob, 包括jacob.jar，jacob.dll。jacob.jar 引入项目lib目录，Jacob.dll放至&quot;WINDOWS\SYSTEM32&quot;目录或者JAVA_HOME下的&quot;jre\bin&quot;；</li>
-<li>安装office 2010,打开系统盘C盘，依次找到路径\Program Files\Common Files\Microsoft Shared\TextConv，找到&quot;TextConv”这个文件夹，然后将其删除。（参考<a href="http://www.wordlm.com/html/2307.html）" target="_blank">http://www.wordlm.com/html/2307.html）</a></li>
+<li>下载最新的jacob,包括jacob.jar,jacob.dll。jacob.jar引入项目lib目录，Jacob.dll放至&quot;WINDOWS\SYSTEM32&quot;目录或者JAVA_HOME下的&quot;jre\bin&quot;；</li>
+<li>安装office 2010,打开系统盘C盘，依次找到路径\Program Files\Common Files\Microsoft Shared\TextConv，找到&quot;TextConv”这个文件夹，然后将其删除。<a href="http://www.wordlm.com/html/2307.html" target="_blank">参考</a></li>
 <li><p>批量转换参考代码如下</p>
 <pre><code> <span class="comment">//打开word应用程序</span>
  ActiveXComponent app = new ActiveXComponent(<span class="string">"Word.Application"</span>);

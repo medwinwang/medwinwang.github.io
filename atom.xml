@@ -4,7 +4,7 @@
   <subtitle><![CDATA[积累需要毅力]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-12-28T10:49:11.052Z</updated>
+  <updated>2013-12-28T10:52:33.887Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,13 +19,13 @@
     <link href="http://yoursite.com/2013/12/28/window%E4%B8%8Bword%E8%BD%AChtml/"/>
     <id>http://yoursite.com/2013/12/28/window下word转html/</id>
     <published>2013-12-28T09:23:12.000Z</published>
-    <updated>2013-12-28T09:37:08.000Z</updated>
+    <updated>2013-12-28T10:52:24.000Z</updated>
     <content type="html"><![CDATA[<p>word转html在liunx下实现基本上依靠openoffice的转换功能，但是openoffice与微软word的兼容性不太好。wps与微软word兼容良好但是linux版本没有转换接口。下面的内容是在window下实现转换的过程。<br>word转html分两步进行。word转pdf，利用jacob调用微软office的另SaveAs（另存为）功能；pdf转html用开源软件 XPDF+pdftohtml 安装后调用命令行实现.</p>
 <h1>实现过程</h1>
 <h2>word转pdf</h2>
 <ol>
-<li>下载最新的jacob, 包括jacob.jar，jacob.dll。jacob.jar 引入项目lib目录，Jacob.dll放至&quot;WINDOWS\SYSTEM32&quot;目录或者JAVA_HOME下的&quot;jre\bin&quot;；</li>
-<li>安装office 2010,打开系统盘C盘，依次找到路径\Program Files\Common Files\Microsoft Shared\TextConv，找到&quot;TextConv”这个文件夹，然后将其删除。（参考<a href="http://www.wordlm.com/html/2307.html）" target="_blank">http://www.wordlm.com/html/2307.html）</a></li>
+<li>下载最新的jacob,包括jacob.jar,jacob.dll。jacob.jar引入项目lib目录，Jacob.dll放至&quot;WINDOWS\SYSTEM32&quot;目录或者JAVA_HOME下的&quot;jre\bin&quot;；</li>
+<li>安装office 2010,打开系统盘C盘，依次找到路径\Program Files\Common Files\Microsoft Shared\TextConv，找到&quot;TextConv”这个文件夹，然后将其删除。<a href="http://www.wordlm.com/html/2307.html" target="_blank">参考</a></li>
 <li><p>批量转换参考代码如下</p>
 <pre><code> <span class="comment">//打开word应用程序</span>
  ActiveXComponent app = new ActiveXComponent(<span class="string">"Word.Application"</span>);
