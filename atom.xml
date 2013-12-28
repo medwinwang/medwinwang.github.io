@@ -1,74 +1,26 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta charset="utf-8">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Medwin Wang's blog]]></title>
+  <subtitle><![CDATA[积累需要毅力]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2013-12-28T10:11:45.763Z</updated>
+  <id>http://yoursite.com/</id>
   
-  <title>Medwin Wang's blog</title>
-  <meta name="author" content="medwinWang">
+  <author>
+    <name><![CDATA[medwinWang]]></name>
+    <email><![CDATA[wm1990315@gmail.com]]></email>
+  </author>
   
-  <meta name="description" content="Medwin Wang's blog">
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  
-  <meta property="og:site_name" content="Medwin Wang's blog"/>
-
-  
-    <meta property="og:image" content="undefined"/>
-  
-
-  <link href="/favicon.png" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Medwin Wang's blog" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  
-</head>
-
-
-<body>
-  <header id="header" class="inner"><div class="alignleft">
-  <h1><a href="/">Medwin Wang's blog</a></h1>
-  <h2><a href="/">积累需要毅力</a></h2>
-</div>
-<nav id="main-nav" class="alignright">
-  <ul>
-    
-      <li><a href="/">首页</a></li>
-    
-      <li><a href="/archives">记录</a></li>
-    
-      <li><a href="/collect">收藏</a></li>
-    
-      <li><a href="/diary">日常</a></li>
-    
-      <li><a href="/about">关于</a></li>
-    
-      <li><a href="/atom.xml">rss</a></li>
-    
-  </ul>
-  <div class="clearfix"></div>
-</nav>
-<div class="clearfix"></div></header>
-  <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-12-28T09:23:12.000Z"><a href="/2013/12/28/window下word转html/">12月 28 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/12/28/window下word转html/">window下word转html</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>word转html在liunx下实现基本上依靠openoffice的转换功能，但是openoffice与微软word的兼容性不太好。wps与微软word兼容良好但是linux版本没有转换接口。下面的内容是在window下实现转换的过程。<br>word转html分两步进行。word转pdf，利用jacob调用微软office的另SaveAs（另存为）功能；pdf转html用开源软件 XPDF+pdftohtml 安装后调用命令行实现.</p>
+  <entry>
+    <title><![CDATA[window下word转html]]></title>
+    <link href="http://yoursite.com/2013/12/28/window%E4%B8%8Bword%E8%BD%AChtml/"/>
+    <id>http://yoursite.com/2013/12/28/window下word转html/</id>
+    <published>2013-12-28T09:23:12.000Z</published>
+    <updated>2013-12-28T09:37:08.000Z</updated>
+    <content type="html"><![CDATA[<p>word转html在liunx下实现基本上依靠openoffice的转换功能，但是openoffice与微软word的兼容性不太好。wps与微软word兼容良好但是linux版本没有转换接口。下面的内容是在window下实现转换的过程。<br>word转html分两步进行。word转pdf，利用jacob调用微软office的另SaveAs（另存为）功能；pdf转html用开源软件 XPDF+pdftohtml 安装后调用命令行实现.</p>
 <h1>实现过程</h1>
 <h2>word转pdf</h2>
 <ol>
@@ -135,164 +87,39 @@
 </ol>
 </li>
 </ol>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
-
-  <article class="post">
+]]></content>
+    
+    
+      <category term="整理" scheme="http://yoursite.com/tags/%E6%95%B4%E7%90%86/"/>
+    
+      <category term="文章" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0/"/>
+    
+      <category term="整理" scheme="http://yoursite.com/categories/%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
   
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-12-27T09:44:25.000Z"><a href="/2013/12/27/测试/">12月 27 2013</a></time>
-      
-      
+  <entry>
+    <title><![CDATA[测试]]></title>
+    <link href="http://yoursite.com/2013/12/27/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2013/12/27/测试/</id>
+    <published>2013-12-27T09:44:25.000Z</published>
+    <updated>2013-12-27T09:49:54.000Z</updated>
+    <content type="html"><![CDATA[<p>Hello, my blog!</p>
+]]></content>
+    
+    
+  </entry>
   
-    <h1 class="title"><a href="/2013/12/27/测试/">测试</a></h1>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2013/12/27/hello-world/"/>
+    <id>http://yoursite.com/2013/12/27/hello-world/</id>
+    <published>2013-12-27T08:53:20.000Z</published>
+    <updated>2013-12-27T08:53:20.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
+]]></content>
+    
+    
+  </entry>
   
-
-    </header>
-    <div class="entry">
-      
-        <p>Hello, my blog!</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
-
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-12-27T08:53:20.000Z"><a href="/2013/12/27/hello-world/">12月 27 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/12/27/hello-world/">Hello World</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
-
-
-
-<nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav></div></div>
-    <aside id="sidebar" class="alignright">
-  <div class="search">
-  <form action="//google.com/search" method="get" accept-charset="utf-8">
-    <input type="search" name="q" results="0" placeholder="搜索">
-    <input type="hidden" name="q" value="site:yoursite.com">
-  </form>
-</div>
-
-  
-<div class="widget tag">
-  <h3 class="title">分类</h3>
-  <ul class="entry">
-  
-    <li><a href="/categories/整理/">整理</a><small>1</small></li>
-  
-  </ul>
-</div>
-
-
-  
-<div class="widget tagcloud">
-  <h3 class="title">标签云</h3>
-  <div class="entry">
-    <a href="/tags/整理/" style="font-size: NaNpx;">整理</a><a href="/tags/文章/" style="font-size: NaNpx;">文章</a>
-  </div>
-</div>
-
-
-  <div class="widget tag">
-<h3 class="title">简介</h3>
-<ul class="entry">
-<li>本体：汪敏</li>
-<li>medwin wang</li>
-<li>普通coder一枚</li>
-<li></li>
-</ul>
-</div>
-
-
-  <script type="text/javascript" src="http://mat1.gtimg.com/app/vt/js/read/import.js" charset="utf-8"></script>
-<div class="widget tag">
-<iframe width="100%" height="100%" frameborder="0" allowtransparency="true" src="about:blank" id="txwbydq_01" srcolling="no"></iframe>  <script type="text/javascript">window.showTxWbYDQ(document.getElementById("txwbydq_01"), {"width":"100%","height":"100%","appkey":"801462526","theme":0,"nobg":0,"ModuleConfigure":{"TitleModule":1,"PubModule":1,"TabModule":1,"TimelineModule":1},"TimelineDetail":{"HeadStyle":1,"PageStyle":0,"PicStyle":0,"TwitterNum":20},"PubModuleConfigure":{"InitialContent":"#阅读墙测试# 说点什么吧","InsertFunction":[0,1,2],"SourceUrl":"http://dev.t.qq.com/websites/read/","position":0},"TitleModuleConfigure":{"OfficialAccount":"api_weibo"},"TimelineModuleConfigure":[{"Condition":["腾讯","微博","开放平台"],"ConditionType":1,"ContentType":0,"Famous":0,"MessageType":1,"Name":"腾讯微博开放平台","SortType":0}],"filter":{"updateTime":1388224779877,"userIds":[""],"keyWords":[""]}} , function(d){/*回调函数,d的值格式为：{"action":"发表","ret":0,"errcode":0,"msg":"ok","data":{"id":231174038614579,"time":1371544700}},其中action的值可能为“发表、转播、评论”*/} );</script>
-</div>
-
-</aside>
-    <div class="clearfix"></div>
-  </div>
-  <footer id="footer" class="inner"><div class="alignleft">
-  
-  &copy; 2013 medwinWang
-  
-</div>
-<div class="clearfix"></div></footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
-
-
-
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-  $('.fancybox').fancybox();
-})(jQuery);
-</script>
-
-</body>
-</html>
+</feed>
